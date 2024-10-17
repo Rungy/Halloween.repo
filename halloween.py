@@ -11,6 +11,8 @@ elif karaktar == "zombie":
 elif karaktar == "spöke":
     print("Buuuu!")
 elif karaktar == "Varulv":
-    print("Månen är på din sida")
+    print("Månen är på din sida!")
+elif karaktar == "Mummy":
+    print("Määäääh")
 else:
     print("Det låter som en spännande karaktär!")
