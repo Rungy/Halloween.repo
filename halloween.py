@@ -16,5 +16,7 @@ elif karaktar == "Mummy":
     print("Määäääh")
 elif karaktar == "Troll":
     print("Troll jävel.")
+elif karaktar == "Trollkarl":
+    print("Wow Magi!")
 else:
     print("Det låter som en spännande karaktär!")
