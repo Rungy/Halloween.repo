@@ -1,7 +1,7 @@
 # halloween.py
 
 # Fråga användaren om deras favorit halloween karaktär
-karaktar = input("Vilken är din favorit-Halloween-karaktär? (vampyr, zombie, spöke): ").lower()
+karaktar = input("Vilken är din favorit-Halloween-karaktär? (vampyr, zombie, spöke, troll, trollkarl, varulv, mummy.): ").lower()
 
 # Använd en if-sats för att ge ett svar baserat på användarens val
 if karaktar == "vampyr":
@@ -12,7 +12,7 @@ elif karaktar == "spöke":
     print("Buuuu!")
 elif karaktar == "varulv":
     print("Månen är på din sida!")
-elif karaktar == "Mummy":
+elif karaktar == "mummy":
     print("Määäääh")
 elif karaktar == "troll":
     print("Troll jävel.")
@@ -34,4 +34,7 @@ else:
     while x < 5:
         x = x + 1
         print("Bläh!")
-
+#En lista för att printa ut spooky message
+message = ["Va","redo","för","att","bli","skrämd!"]
+for ord in message:
+    print(ord)
